@@ -1,0 +1,133 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 45px;
+}
+
+
+.full-width-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    margin-bottom:45px;
+}
+
+.font-color {
+    color: lightcyan;
+}
+
+.bkg-color{
+    background-color: #3C4841;
+}
+
+
+.nav-buttons{
+    height:125px;
+    width:250px;
+}
+
+.nav-buttons:hover{
+    border: 3px solid #E67E80;
+}
+
+/* Style for each full-page section */
+.full-page {
+    height: 100vh; /* 100% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    background-color: #3C4841;; /* Example background color */
+    overflow:hidden;
+}
+
+.left-width{
+    height:100%;
+    width:40%;
+    border:15px;
+}
+
+.right-width{
+    width:60%;
+}
+
+/*
+    Buttons
+*/
+.pixel-button {
+    width: 342px; /* Match your image width */
+    height: 174px; /* Match your image height */
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    image-rendering: pixelated;
+}
+.pixel-button project{
+    background: url('') no-repeat center center;
+    background-size: contain;
+}
+.pixel-button resume{
+    background: url('') no-repeat center center;
+    background-size: contain;
+}
+
+.pixel-button img {
+    object-fit: contain;
+}
+
+/*About Me*/
+
+.font-color {
+    color: lightcyan;
+}
+
+.about-title{
+    position: relative;
+    margin-top: 25%;
+    margin-bottom:25%;
+}
+
+.about-me-desc{
+    font-size: 20px;
+    padding:50px;
+}
+
+
+/*
+    Everforest colors
+
+
+
+    bg-dim: #1E2326
+    bg-red: #4C3743
+    bg-yellow: #45443C
+    bg-green: #3C4841
+    bg-blue: #384B55
+    bg5: #4F5B58
+    red: #E67E80
+    orange: #E69875
+    yellow: #DBBC7F
+    green: #A7C080
+    blue: #7FBBB3
+    aqua: #83C092
+    purple: #D699B6
+*/
