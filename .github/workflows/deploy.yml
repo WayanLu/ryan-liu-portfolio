@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v3  # This will automatically use Node.js 20 in 2024.
 
     - name: Sync files to S3
       uses: jakejarvis/s3-sync-action@v0.5.1
